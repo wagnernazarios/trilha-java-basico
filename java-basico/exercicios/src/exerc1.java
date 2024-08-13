@@ -1,3 +1,5 @@
+package src;
+
 public class exerc1 {
 
     public static void main(String[] args) {

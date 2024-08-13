@@ -1,3 +1,5 @@
+package src;
+
 public class exerc2 {
     public static void main(String[] args) {
         int num1 = 10;
