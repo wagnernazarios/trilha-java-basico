@@ -11,15 +11,17 @@ public class App {
         System.out.println("Informe seu nome: ");
         String nome = leitor.nextLine();
 
-        System.out.println("Informe seu peso: ");
-        objetPessoa.setPeso(leitor.nextFloat());
+        float peso = Pessoa.lerFloat(leitor, "Informe seu peso: ");
+        objetPessoa.setPeso(peso);
 
-        System.out.println("Informe sua altura: ");
-        objetPessoa.setAltura(leitor.nextFloat());
-
+        float altura = Pessoa.lerFloat(leitor, "Informe sua altura: ");
+        objetPessoa.setAltura(altura);
 
         float imcPessoa = objetPessoa.calcularIMC();
         System.out.println(nome + ", seu IMC é: " + imcPessoa);
+
+        leitor.close();
+
     }
 
 }

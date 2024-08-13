@@ -1,6 +1,4 @@
 {
-  "java.project.sourcePaths": [
-    "java-basico/POO/src",
-    "Introducao-java/app/src/main/java/introducao/java"
-  ]
+  "java.project.sourcePaths": ["java-basico/POO/src", "java-basico/exercicios"],
+  "java.debug.settings.onBuildFailureProceed": true
 }
