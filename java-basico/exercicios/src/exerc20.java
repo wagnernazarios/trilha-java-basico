@@ -2,7 +2,7 @@ package src;
 
 import java.util.Scanner;
 
-public class exerc20 {
+public class Exerc20 {
 
     public static void main(String[] args) {
 
@@ -24,7 +24,7 @@ public class exerc20 {
                 valorCarro = leitor.nextFloat();
 
                 if (anoFabricacao <= 2000) {
-                    porcentagemDesconto = 0.15f;
+                    porcentagemDesconto = 0.12f;
                 } else {
                     porcentagemDesconto = 0.07f;
                     totalSeminovos++;

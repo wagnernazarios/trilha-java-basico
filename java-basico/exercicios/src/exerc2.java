@@ -1,6 +1,6 @@
 package src;
 
-public class exerc2 {
+public class Exerc2 {
     public static void main(String[] args) {
         int num1 = 10;
         int num2 = 9;

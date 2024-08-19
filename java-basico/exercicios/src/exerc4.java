@@ -1,6 +1,6 @@
 package src;
 
-public class exerc4 {
+public class Exerc4 {
     public static void main(String[] args) {
 
         String vendedor = "Roberto";
