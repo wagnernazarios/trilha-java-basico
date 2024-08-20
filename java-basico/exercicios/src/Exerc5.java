@@ -17,15 +17,16 @@ public class Exerc5 {
         double nota3 = leitor.nextDouble();
 
         double media = calcularMedia(nota1, nota2, nota3);
+        String mediaFormatada = String.format("%.2f", media);
 
         System.out.println("\nNome: " + nomeAluno + "\nNota 1: " + nota1 + "\nNota 2: " + nota2 + "\nNota 3: " + nota3
-                + "\nMedia: " + media);
+                + "\nMedia: " + mediaFormatada);
 
         leitor.close();
     }
 
     public static double calcularMedia(double nota1, double nota2, double nota3) {
-        double media = (nota1 + nota2 + nota3) / 3;
-        return media;
+        return (nota1 + nota2 + nota3) / 3;
+
     }
 }
