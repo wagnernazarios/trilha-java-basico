@@ -14,8 +14,10 @@ public class Exerc10 {
         float valorParcelado = valorCompras / 5;
         String valorParceladoFormatado = String.format("%.2f", valorParcelado);
 
-        System.out.println("Valor total das compras: " + valorComprasFormatado + " reais."
-                + "\nValor das compras parcelado em 5x: " + valorParceladoFormatado + " reais.");
+        System.out.println("Valor total das compras: " + valorComprasFormatado + "reais."
+                + "\nValor das compras parcelado em 5x: " + valorParceladoFormatado + "reais.");
+
+        leitor.close();
     }
 
 }
